@@ -1,18 +1,8 @@
 from fastai import *
-from pathlib import Path
-from fastai.tabular.all import *
 import streamlit as st
 from fastbook import *
 import streamlit.components.v1 as components
 import csv
-from fastai.vision.all import *
-import pandas as pd
-import numpy as np
-import fastai
-import seaborn as sns
-from pathlib import Path
-from fastai.tabular.all import *
-from sklearn.metrics import r2_score
 
 link_for_train = 'https://www.kaggle.com/code/rayhaank/diabetes-predictor'
 #Title
