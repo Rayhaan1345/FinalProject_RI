@@ -1,7 +1,6 @@
 from fastai import *
 import streamlit as st
 from fastbook import *
-import streamlit.components.v1 as components
 import csv
 
 link_for_train = 'https://www.kaggle.com/code/rayhaank/diabetes-predictor'
@@ -55,6 +54,7 @@ if st.button("press to run", type="primary"):
         preds = learn.get_preds(dl=dl)
         preds = [x.item() for x in preds[0]]
         test['Outcome'] = preds
+        st.warning('ignore first outcome. Use the second one.')
         st.info(preds)
 
 
