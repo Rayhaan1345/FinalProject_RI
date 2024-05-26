@@ -1,0 +1,13 @@
+fastai
+pathlib
+fastai.tabular.all
+streamlit
+fastbook
+streamlit.components.v1
+csv
+fastai.vision.all
+pandas
+numpy
+seaborn
+sklearn.metrics
+
