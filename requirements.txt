@@ -1,7 +1,6 @@
 fastai
 streamlit
 fastbook
-csv
 pandas
 numpy
 seaborn
