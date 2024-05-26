@@ -3,5 +3,5 @@ fastbook
 pandas
 numpy
 seaborn
-sklearn.metrics
+
 
