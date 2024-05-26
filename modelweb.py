@@ -55,11 +55,9 @@ Age = st.slider("**Age**", 0, 100, 50)
 
 learn = load_learner('model.pkl')
 
-i = st.slider('Which time are you inputting',1,10,2)
 if st.button("press to run", type="primary"):
     with open('diabetes.csv', 'a') as file:
-        z = i
-        z = i + 1
+
         writer = csv.writer(file)
         writer.writerow([pregnancies, glucose, bloodp, SkinThickness, insulin, bmi, DiabetesPedigreeFunction, Age])
         learn = load_learner('model.pkl')
@@ -69,7 +67,7 @@ if st.button("press to run", type="primary"):
         preds = [x.item() for x in preds[0]]
         test['Outcome'] = preds
         st.warning("Ignore the first outcome, use the second one. [Press again!]")
-        st.info(preds[z])
+        st.info(preds[0])
 
 
 st.title("Acknowledgements")
