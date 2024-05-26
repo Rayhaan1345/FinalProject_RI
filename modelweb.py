@@ -50,7 +50,7 @@ if st.button("press to run", type="primary"):
         writer = csv.writer(file)
         writer.writerow([pregnancies, glucose, bloodp, SkinThickness, insulin, bmi, DiabetesPedigreeFunction, Age])
         learn = load_learner('model.pkl')
-        test = pd.read_csv('/workspaces/96483570/diabetes.csv')
+        test = pd.read_csv('diabetes.csv')
         dl = learn.dls.test_dl(test)
         preds = learn.get_preds(dl=dl)
         preds = [x.item() for x in preds[0]]
