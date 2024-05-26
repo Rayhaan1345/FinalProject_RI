@@ -55,7 +55,7 @@ if st.button("press to run", type="primary"):
         preds = [x.item() for x in preds[0]]
         test['Outcome'] = preds
         st.warning('ignore first outcome. Use the second one.')
-        st.success(preds)
+        st.info(preds)
 
 
 st.title("Acknowledgements")
