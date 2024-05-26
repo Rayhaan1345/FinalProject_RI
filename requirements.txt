@@ -1,5 +1,4 @@
 fastai
-streamlit
 fastbook
 pandas
 numpy
