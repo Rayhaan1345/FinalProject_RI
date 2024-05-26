@@ -1,11 +1,7 @@
 fastai
-pathlib
-
 streamlit
 fastbook
-streamlit.components.v1
 csv
-fastai.vision.all
 pandas
 numpy
 seaborn
