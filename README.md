@@ -1,8 +1,7 @@
-Thanks a lot for visitng this project.
+Hey there! thanks a lot for visitng this project.
+# 🏞️
 
-🏞
-
-This project was the core of my research internship at M42 Health - Abu Dhabi.
+This was the main goal of my internship at M42 health- Abu Dhabi. Here, I created "Diabetes Predictor Model" with Deep Learning for helping identify pre-diabetics and getting them out of the spectrum. The model performed with over 97% accuracy.
 
 **Visit the Web Application**: [https://research-report-diabetes.streamlit.app/] 🌌
 
